@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>147179212742-5d8kudnpacf8eucac51vda24bu6if10p.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.147179212742-5d8kudnpacf8eucac51vda24bu6if10p</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCxiUVbV9Qzlg2qkO8KlQX_5KR_qI85D9I</string>
+	<key>GCM_SENDER_ID</key>
+	<string>147179212742</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>ca.ace.messageApp</string>
+	<key>PROJECT_ID</key>
+	<string>psstchat-f61d1</string>
+	<key>STORAGE_BUCKET</key>
+	<string>psstchat-f61d1.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:147179212742:ios:74fc06bc9c23e1c2</string>
+	<key>DATABASE_URL</key>
+	<string>https://psstchat-f61d1.firebaseio.com</string>
+</dict>
+</plist>
