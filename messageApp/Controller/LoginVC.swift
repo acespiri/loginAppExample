@@ -53,10 +53,18 @@ class LoginVC: UIViewController {
         if let email = emailTextField.text, let password = passwordTextField.text {
             Auth.auth().signIn(withEmail: email, password: password, completion: {(user, error) in
             if error == nil {
-                self.userID = user?.uid
-                self.performSegue(withIdentifier: "toMessages", sender: nil)
+                    self.userID = user?.uid
+                    self.performSegue(withIdentifier: "toMessages", sender: nil)
+                
             } else {
-               self.performSegue(withIdentifier: "signUP", sender: nil)
+                
+                let alert = UIAlertController(title: "Error", message: "User not found", preferredStyle: .alert)
+                alert.addAction(UIAlertAction(title: "Create user?", style: .default, handler: {_ in
+                    self.userID = user?.uid
+                    self.performSegue(withIdentifier: "signUP", sender: nil)
+                }))
+                self.present(alert, animated: true, completion: nil)
+          
                 }
         })
         }

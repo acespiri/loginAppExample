@@ -41,8 +41,13 @@ class signUpVC: UIViewController {
             } else {
                 if let user = user {
                     self.userID = user.uid
-                    print("account created")
+                    let alert = UIAlertController(title: "User Account", message: "Create Account?", preferredStyle: .alert)
+                    alert.addAction(UIAlertAction(title: "OK", style: .default, handler: { _ in
                     self.dismiss(animated: true, completion: nil)
+                    }))
+                    self.present(alert, animated: true, completion: nil)
+                    print("account created")
+                    
                 }
             }
         })
